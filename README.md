@@ -2,6 +2,12 @@
 
 A Streamlit-powered application that uses Google Gemma 2 to solve mathematical problems and retrieve information from Wikipedia.
 
+**[Try the live demo here](https://math-and-search-llm-app-ash.streamlit.app/)**
+
+## Live Demo
+
+Access the deployed application at: [https://math-and-search-llm-app-ash.streamlit.app/](https://math-and-search-llm-app-ash.streamlit.app/)
+
 ## Features
 
 - **Mathematical Problem Solving**: Solves various mathematical problems with step-by-step reasoning

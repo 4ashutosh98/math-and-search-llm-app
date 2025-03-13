@@ -83,9 +83,9 @@ def generate_response(question):
 ## Lets start the interaction
 question = st.text_area("Enter your question:", placeholder="Write a math problem or ask for information on a topic to search on Wikipedia.")
 
-if st.button("Solve the Math problem"):
+if st.button("Solve the Math problem/ Search Wikipedia"):
     if question:
-        with st.spinner("Solving the problem..."):
+        with st.spinner("Solving the problem/searching wikipedia..."):
             st.session_state.messages.append({"role": "user", "content": question})
             st.chat_message("user").write(question)
 
